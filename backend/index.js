@@ -13,12 +13,12 @@ app.post('/api/locacao', async (req, res) => {
   const { nome, email } = req.body;
 
   const veiculo = {
-    modelo: "BMW 320i", // Exemplo de modelo de veículo
-    placa: "ABC-1234", // Exemplo de placa de veículo
-    ano: 2025,  // Exemplo de ano do veículo
-    valorDiaria: 150, // Exemplo de valor da diária
-    valorTotal: 1050, // Exemplo de valor total da locação
-    tempoAluguel: "2 semanas",  // Exemplo de tempo de aluguel
+    modelo: "", // Exemplo de modelo de veículo
+    placa: "", // Exemplo de placa de veículo
+    ano: "",  // Exemplo de ano do veículo
+    valorDiaria: "", // Exemplo de valor da diária
+    valorTotal: "", // Exemplo de valor total da locação
+    tempoAluguel: "",  // Exemplo de tempo de aluguel
   };
 
   const mensagem = {
